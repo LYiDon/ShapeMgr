@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Shape使用 具体使用请看：ShapeMgr.kt-->
+    <declare-styleable name="Shape" tools:ignore="ResourceName">
+        <!--圆角值-->
+        <attr name="shape_radius" format="dimension" />
+        <attr name="shape_radiusBottomLeft" format="dimension" />
+        <attr name="shape_radiusBottomRight" format="dimension" />
+        <attr name="shape_radiusTopLeft" format="dimension" />
+        <attr name="shape_radiusTopRight" format="dimension" />
+        <!--背景色-->
+        <attr name="shape_backgroundColor" format="color" />
+        <!--描边宽度-->
+        <attr name="shape_strokeWidth" format="dimension" />
+        <!--描边色-->
+        <attr name="shape_strokeColor" format="color" />
+        <!-- 渐变 -->
+        <attr name="shape_gradualColorStart" format="color" />
+        <attr name="shape_gradualColorEnd" format="color" />
+        <!-- 按压效果 -->
+        <attr name="shape_pressedBackgroundColor" format="color" />
+        <attr name="shape_pressedStrokeColor" format="color" />
+        <!--是否显示按压阴影效果-->
+        <attr name="shape_showShadow" format="boolean" />
+    </declare-styleable>
+
+</resources>
